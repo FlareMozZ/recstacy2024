@@ -164,7 +164,7 @@ const Navigation = () => {
           <MenuItem onClick={() => scrollTo("faq")}>Faq</MenuItem> */}
           <Link to="/"><MenuItem>Home</MenuItem></Link>
 <Link to="/about"><MenuItem>Event</MenuItem></Link>
-<Link to="/roadmap"><MenuItem>Roadmap</MenuItem></Link>
+<Link to="/roadmap"><MenuItem>Timeline</MenuItem></Link>
 <Link to="/showcase"><MenuItem>Showcase</MenuItem></Link>
 <Link to="/team"><MenuItem>Team</MenuItem></Link>
 {/* <Link to="/faq"><MenuItem>Faq</MenuItem></Link> */}

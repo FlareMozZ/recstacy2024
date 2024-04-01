@@ -211,7 +211,7 @@ const Roadmap = () => {
 
   return (
     <Section id="roadmap">
-      <Title>Roadmap</Title>
+      <Title>TIMELINE</Title>
       <Container>
         <SvgContainer>
           <DrawSvg />
