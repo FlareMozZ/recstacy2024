@@ -6,6 +6,7 @@ import RoundTextBlack from '../../assets/Rounded-Text-Black.png';
 import Loading from '../Loading';
 import RecsTextBlack from '../../assets/recs_black_image.png';
 import HomeText from '../../HomeText';
+import recsvid from '../../assets/recsvid.mp4';
 
 
 
@@ -112,9 +113,9 @@ font-size:${props => props.theme.fontlg};
 const Home = () => {
   return (
     <>
-   
     <Section id="home">
     <HomeText />
+     
       <Container>
       <Box>
         <Suspense fallback={<Loading />}>
@@ -136,6 +137,7 @@ const Home = () => {
 
       </Container>
     </Section>
+   
     </>
   )
 }
