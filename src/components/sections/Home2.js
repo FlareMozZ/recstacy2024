@@ -25,9 +25,9 @@ background-image: url("https://www.yudiz.com/codepen/photography-banner/frame.pn
 `
 
 const Container = styled.div`
+width: 75%;
 min-height: 80vh;
 margin: 0 auto;
-padding: 20px;
 /* background-color: lightblue; */
 
 display: flex;
@@ -47,8 +47,8 @@ align-items: center;
 }
 `
 const Box = styled.div`
+width: 50%;
 height: 100%;
-padding:5%;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -114,25 +114,17 @@ font-size:${props => props.theme.fontlg};
 
 `
 
-const Home = () => {
+const Home2 = () => {
   return (
     <>
     <Section id="home">
-     
-      <HomeText />
-      <Hero />
+
       <Container>
-        <div className='right-hero'>
+
         <Box>
         <Suspense fallback={<Loading />}>
           <CoverVideo /></Suspense>
           
-        </Box>
-        </div>
-
-        <Box>
-        <Suspense fallback={<Loading />}>
-          <TypeWriterText /></Suspense>
         </Box>
       
         
@@ -145,4 +137,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Home2

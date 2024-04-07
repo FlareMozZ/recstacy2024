@@ -7,11 +7,11 @@
 
 
 .containertxt{
-    height: 100vh;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: radial-gradient(#8481c0, #4a468b);
+    background: radial-gradient(#620b0be0, #991b19);
     width: 100%;
 }
 
@@ -31,13 +31,12 @@
 
 @font-palette-values --color {
 	font-family: "Honk";
-	base-palette: 4;
 }
 
 
 @keyframes morph {
 	0% {
-		font-variation-settings: "MORF" 25, "SHLN" 0;
+		font-variation-settings: "MORF" 25, "SHLN" 90;
 	}
 
 	100% {

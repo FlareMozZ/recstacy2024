@@ -7,7 +7,7 @@ const Title = styled.h2`
   font-size: ${(props) => props.theme.fontxxl};
   text-transform: capitalize;
   width: 80%;
-  color: ${(props) => props.theme.text};
+  color: rgb(228 215 215);
   align-self: flex-start;
 
   span {
@@ -101,7 +101,7 @@ const TypeWriterText = () => {
     </Title>
     <SubTitle>Bored Of Assignments? Try Something New.</SubTitle>
     <ButtonContainer>
-    <Button text="Explore" link="#about" />
+     
     </ButtonContainer>
     </>
   );
